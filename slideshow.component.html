@@ -1,0 +1,9 @@
+<div>
+    <h3 ng-bind="$ctrl.slideshowTitle"></h3>
+    <button ng-click="$ctrl.goBack()"><</button>
+    <img 
+        width="200" 
+        height="200"
+        ng-src="{{$ctrl.imgList[$ctrl.activeIndex]}}" alt="">
+    <button ng-click="$ctrl.goForward()">></button>
+</div>
