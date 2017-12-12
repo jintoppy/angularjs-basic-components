@@ -18,6 +18,11 @@ angular.module('myapp')
     });
 
 angular.module('myapp')
+    .component('mySlideshow', {
+        templateUrl: 'slideshow.component.html'
+    });    
+
+angular.module('myapp')
     .component('myButton', {
         bindings: {
             myTitle: '@',
